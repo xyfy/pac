@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: "0 12 * * 6"  # 8 PM CST every Saturday
+#  schedule:
+#    - cron: "0 12 * * 6"  # 8 PM CST every Saturday
 
 permissions:
   contents: write
